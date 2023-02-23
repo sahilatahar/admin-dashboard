@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Sidebar.css";
 import { FiShoppingBag } from "react-icons/fi";
 import { FaSignOutAlt } from "react-icons/fa";
-import { SidebarData } from "./Data";
+import { SidebarData } from "../Data/Data";
 
 const Sidebar = () => {
   const [selected, setselected] = useState(0);
@@ -12,7 +12,7 @@ const Sidebar = () => {
       {/* Logo  */}
       <div className="logo">
         <FiShoppingBag className="icon" />
-        <span>Shop</span>
+        <span>Sh<span>o</span>p</span>
       </div>
 
       {/* Menu */}
