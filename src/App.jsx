@@ -1,15 +1,16 @@
 import React from "react";
 import "./App.css";
 import MainDash from "./components/MainDash/MainDash";
-import Sidebar from "./components/sidebar/Sidebar";
+import RightSideBar from "./components/RightSideBar/RightSideBar";
+import Sidebar from "./components/Sidebar/Sidebar";
 
 export default function App() {
   return (
     <div className="App">
-      <div className="appGlass">
+      <div className="AppGlass">
         <Sidebar />
         <MainDash />
-        <div></div>
+        <RightSideBar />
       </div>
     </div>
   );

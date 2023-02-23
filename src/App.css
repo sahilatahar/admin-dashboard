@@ -29,12 +29,33 @@
   align-items: center;
 }
 
-.appGlass {
+.AppGlass {
   display: grid;
   height: 97%;
   width: 97%;
   border-radius: 2rem;
   background: var(--glass);
-  overflow: hidden;
   grid-template-columns: 11rem auto 20rem;
+  overflow: hidden;
+  gap: 16px;
+}
+
+
+@media screen and (max-width: 1200px) {
+
+  .AppGlass {
+    grid-template-columns: 10% 50% auto;
+    overflow-y: scroll;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .AppGlass {
+    grid-template-columns: 1fr;
+  }
+
+  .AppGlass::-webkit-scrollbar {
+    display: none;
+  }
 }

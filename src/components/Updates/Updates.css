@@ -1,0 +1,33 @@
+.Updates {
+    width: 95%;
+    background: white;
+    border-radius: 0.7rem;
+    padding: 1rem ;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    margin: 0.5rem 0px;
+}
+
+.update {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.update>img {
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 50%;
+}
+
+.noti>div>span:nth-of-type(1) {
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .Updates {
+        padding: 0.5rem;
+    }
+}

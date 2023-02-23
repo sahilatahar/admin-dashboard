@@ -1,0 +1,17 @@
+.CustomerReview {
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 1200px) {
+    .CustomerReview {
+        margin-top: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+    .CustomerReview {
+        margin-top: 2rem;
+    }
+}
+
