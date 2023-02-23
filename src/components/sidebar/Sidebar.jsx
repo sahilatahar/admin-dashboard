@@ -8,7 +8,7 @@ import { GoThreeBars } from "react-icons/go";
 
 const Sidebar = () => {
   const [selected, setselected] = useState(0);
-  const [expanded, setExpaned] = useState(true);
+  const [expanded, setExpaned] = useState(false);
 
   const sidebarVariants = {
     true: {

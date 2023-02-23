@@ -3,12 +3,17 @@
     flex-direction: column;
     width: 95%;
     justify-content: space-evenly;
+    margin-top: 0rem;
+}
+
+.RightSide>div>h3 {
+    margin: 1rem 0px;
 }
 
 @media screen and (max-width: 1200px) {
     .RightSide {
         justify-content: flex-start;
-        margin-top: 3rem;
+        margin-top: 1rem;
     }
 }
 
